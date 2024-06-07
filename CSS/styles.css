@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightskyblue;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    display: flex;
+}
+#app {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px darkblue;
+    width: 300px;
+}
+#todo-form {
+    display: flex;
+    justify-content: space-between;
+}
+#todo-input {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid darkblue;
+    border-radius: 4px;
+}
+button {
+    padding: 8px 12px;
+    border: none;
+    background-color: lightskyblue;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: darkblue;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    padding: 8px;
+    border-bottom: 1px solid lightskyblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.completed {
+    text-decoration: line-through;
+    color: darkblue;
+}
